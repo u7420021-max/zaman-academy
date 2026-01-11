@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAMAN ACADEMY | Келечекке кадам</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">ZAMAN <span>ACADEMY</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Негизги</a></li>
+                <li><a href="#about">Биз жөнүндө</a></li>
+                <li><a href="#courses">Курстар</a></li>
+                <li><a href="#contact">Байланыш</a></li>
+            </ul>
+            <!-- <a href="#contact" class="nav-btn">Азыр кошул</a> -->
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-info">
+                <p class="top-tag">ОШ IT АКАДЕМИЯ</p>
+                <h1>Келечек <span>Zaman Academy</span> менен башталат</h1>
+                <p class="hero-p">Биз тек гана код жазууну эмес, ийгиликтүү карьера курууну үйрөтөбүз. Заманбап технологиялар жана тажрыйбалуу менторлор сиздин кызматыңызда.</p>
+                <div class="hero-btns">
+                    <a href="#courses" class="btn-primary">Курстарды көрүү</a>
+                    <a href="#about" class="btn-secondary">Биз тууралуу</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Zaman IT">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2 class="section-heading">Биз жөнүндө</h2>
+                <div class="line"></div>
+                <p>Zaman Academy — бул 2023-жылы негизделген, Кыргызстандагы алдыңкы IT мектептеринин бири. Биздин максат — ар бир окуучуга сапаттуу билим берип, аларды эл аралык деңгээлдеги адис катары даярдоо.</p>
+                <p>Бизде билим берүү 80% практикага негизделген. Сиз теорияны гана үйрөнбөстөн, реалдуу долбоорлордун үстүндө иштеп, портфолио топтойсуз.</p>
+                <div class="features">
+                    <div class="feat-item"><i class="fas fa-graduation-cap"></i> Диплом жана Сертификат</div>
+                    <div class="feat-item"><i class="fas fa-users"></i> Жамааттык иштөө</div>
+                    <div class="feat-item"><i class="fas fa-rocket"></i> Карьералык колдоо</div>
+                </div>
+            </div>
+            <div class="about-img-box">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Окуу процесси">
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-heading centered">Студенттердин ишеними</h2>
+            <div class="review-stats">
+                <div class="stat-card">
+                    <h3>2000+</h3>
+                    <p>Бүтүрүүчүлөр</p>
+                </div>
+                <div class="stat-card">
+                    <h3>95%</h3>
+                    <p>Ийгиликтүү карьера</p>
+                </div>
+                <div class="stat-card">
+                    <h3>50+</h3>
+                    <p>өнөктөш компаниялар</p>
+                </div>
+            </div>
+            <div class="review-grid">
+                <div class="rev-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Бул жерден алган билимим мага Европалык компанияда аралыктан иштөөгө мүмкүнчүлүк берди. Мугалимдер өтө күчтүү!"</p>
+                    <div class="rev-user">
+                        <h4>Азамат Исаков</h4>
+                        <span>Frontend Developer</span>
+                    </div>
+                </div>
+                <div class="rev-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Zaman Academy — бул жөн гана окуу эмес, бул чоң үй-бүлө. Мен дизайнды нөлдөн баштап үйрөндүм."</p>
+                    <div class="rev-user">
+                        <h4>Наргиза Бакирова</h4>
+                        <span>UI/UX Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-heading centered">Биздин Курстар</h2>
+            <div id="course-container" class="course-container"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-heading">Байланыш</h2>
+            <div class="line"></div>
+            <div class="contact-wrapper">
+                <div class="contact-info-list">
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Дарегибиз:</h4>
+                            <p>Ош ш.</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Телефон:</h4>
+                            <p>+996 (220) 576 370</p>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email:</h4>
+                            <p>info@zaman.kg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-side">
+                    <form class="simple-form">
+                        <input type="text" placeholder="Сиздин атыңыз" required>
+                        <input type="tel" placeholder="Телефон номериңиз" required>
+                        <select id="course-select">
+                            <option value="">Курсту тандаңыз</option>
+                        </select>
+                        <button type="submit" class="btn-primary">Байланышка чыгуу</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">ZAMAN <span>ACADEMY</span></div>
+                <p>Биздин максат — заманбап билим аркылуу жашоону өзгөртүү.</p>
+            </div>
+            <div class="footer-links-group">
+                <h4>Тез шилтемелер</h4>
+                <ul>
+                    <li><a href="#home">Башкы бет</a></li>
+                    <li><a href="#about">Биз жөнүндө</a></li>
+                    <li><a href="#courses">Курстар</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Биз социалдык тармактарда</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Zaman Academy. Бардык укуктар корголгон.</p>
+        </div>
+    </footer>
+
+    <div id="side-drawer" class="drawer">
+        <div class="drawer-header">
+            <button class="close-btn" onclick="closeDrawer()">&times;</button>
+        </div>
+        <div id="drawer-data" class="drawer-body"></div>
+    </div>
+
+    <!-- <button type="submit" class="btn-primary">Байланышка чыгуу</button> -->
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
